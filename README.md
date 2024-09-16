@@ -1,6 +1,6 @@
 **Project Outlines: SI-IDID**
 
-SI-IDID represents an innovative extension of the established Ev-IDID toolkit, specifically tailored to address complex I-DID (Interactive Dynamic Influence Diagram) problems with enhanced precision and capabilities. Building upon the solid foundation laid by Ev-IDID, SI-IDID refines and augments its predecessor's functionalities, offering a superior approach to I-DID modeling.
+SI-IDID represents an innovative extension of the established Ev-IDID toolkit~(please refer to https://github.com/lamingic/Ev-IDID), specifically tailored to address complex I-DID (Interactive Dynamic Influence Diagram) problems with enhanced precision and capabilities. Building upon the solid foundation laid by Ev-IDID, SI-IDID refines and augments its predecessor's functionalities, offering a superior approach to I-DID modeling.
 
 Furthermore, the repository functions as supplementary material for our paper titled "Improved Response Strategies for Unknown Behaviours in Multiagent Interaction," authored by an esteemed team comprising Yinghui Pan (Member, IEEE), Mengen Zhou, Yifeng Zeng (Member, IEEE), Biyang Ma (Member, IEEE), Yew-soon Ong (Fellow, IEEE), and Guoquan Liu.
 
