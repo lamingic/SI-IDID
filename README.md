@@ -15,10 +15,14 @@ Within this paper, we harness two distinct simulation intelligence (SI) techniqu
 - **PSB (PSO-Enabled behaviours ) and ACB (ACO-based behavior) Frameworks**: We comprehensively outline the theoretical foundations and structural compositions of the PSB and ACB frameworks. These frameworks serve as the backbone for devising novel response strategies to handle unknown behaviors in multiagent interactions.
 
 - **PSB Operators**: We detail the four operators employed within the PSB framework. These operators are designed to manipulate and optimize the behavior models of agents, enabling the subject agent to better anticipate and react to unknown behaviors. Adapted from PSO for policy tree representation, these operators are detailed in Section (Generation of New Behaviors through PSO) and used in Algorithm PSB to update particle position and velocity. We present the pseudocode for the four operators in PSB:
-- - $\ominus$: operator $\ominus$ calculates particle velocity from particle positions.
-- - $\oplus$: operator $\oplus$ calculates a new particle position.
-- - $\otimes$: operator $\otimes$ scales velocity $v_1$ by scalar $\omega$.
-- - $\uplus$: operator $\uplus$ combines two velocities $v_1$ and $v_2$.
+We present the pseudocode for the four operators in PSB:
+
+\begin{itemize}
+\item The {\it minus} operator $\ominus$ calculates particle velocity from particle positions.
+\item The {\it plus} operator $\oplus$ calculates a new particle position.
+\item The {\it times} operator $\otimes$ scales velocity $v_1$ by scalar $\omega$.
+\item The {\it merging} operator $\uplus$ combines two velocities $v_1$ and $v_2$.
+\end{itemize}
 
 These operators, adapted from the PSO mechanism and developed for policy tree representation, are described in two situations in Section~(Generation of New  Behaviours through PSO) and used to update particle position and velocity in Algorithm PSB.
 
