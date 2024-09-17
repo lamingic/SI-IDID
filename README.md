@@ -17,21 +17,21 @@ Within this paper, we harness two distinct simulation intelligence (SI) techniqu
 - **PSB Operators**: We detail the four operators employed within the PSB framework. These operators are designed to manipulate and optimize the behavior models of agents, enabling the subject agent to better anticipate and react to unknown behaviors. Adapted from PSO for policy tree representation, these operators are detailed in Section (Generation of New Behaviors through PSO) and used in Algorithm PSB to update particle position and velocity. We present the pseudocode for the four operators in PSB:
 We present the pseudocode for the four operators in PSB:
 
-- - $\ominus$: operator $\ominus$ calculates particle velocity from particle positions.
-- - $\oplus$: operator $\oplus$ calculates a new particle position.
-- - $\otimes$ : operator $\otimes$ scales velocity $v_1$ by scalar $\omega$.
-- - $\uplus$ : operator $\uplus$ combines two velocities $v_1$ and $v_2$.
+- $\ominus$: operator $\ominus$ calculates particle velocity from particle positions.
+- $\oplus$: operator $\oplus$ calculates a new particle position.
+- $\otimes$ : operator $\otimes$ scales velocity $v_1$ by scalar $\omega$.
+- $\uplus$ : operator $\uplus$ combines two velocities $v_1$ and $v_2$.
 
 These operators, adapted from the PSO mechanism and developed for policy tree representation, are described in two situations in Section~(Generation of New  Behaviours through PSO) and used to update particle position and velocity in Algorithm PSB.
 
 - **Shared Functionalities**: Both the PSB and ACB algorithms share four core operators outlined in PSB and ACB. The **formalise** operator generates an action sequence from a given policy tree, while the **transform** operator constructs a policy tree from a given action sequence. These two operators act as translators between policy trees and particles (or ants) in PSB (or ACB). The **fitness** operator evaluates the fitness of a particle's action sequence in PSB using the decision tool GeNIe[^1], which is the most computationally intensive operator in the algorithms. The **evaluate** operator calculates the pheromone value when an ant in ACB holds a policy encoded as an ordered sequence of actions over positions.
 [^1]: https://www.bayesfusion.com)
 
-- - Formalise: Generates an action sequence from a policy tree.  
-- - Transform: Converts action sequences to policy trees. 
-- - Fitness: Evaluates particle sequences using GeNIe decision tool~\footnote{https://www.bayesfusion.com}.  
-- - Evaluate: Calculates pheromone for ant policies.
-  - 
+- **Formalise**: Generates an action sequence from a policy tree.  
+- **Transform**: Converts action sequences to policy trees. 
+- **Fitness**: Evaluates particle sequences using GeNIe decision tool~\footnote{https://www.bayesfusion.com}.  
+- **Evaluate**: Calculates pheromone for ant policies.
+
 **Scripts**:
 
 - **Implementations**: We present the complete implementations of the algorithms and techniques used in our research. These include source code, function libraries, and scripts necessary for replicating our experiments and results.
