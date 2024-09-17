@@ -9,4 +9,6 @@ Furthermore, the repository functions as supplementary material for our paper ti
 
 **Abstract：** Within this paper, we harness two distinct simulation intelligence (SI) techniques to devise innovative behaviors for interacting agents, thereby empowering the subject agent to optimize its response strategies. These novel behaviors are designed to accurately mirror the authentic behaviors of other agents, enabling the subject agent to react appropriately and effectively. By leveraging the Interactive Dynamic Influence Diagrams framework, we undertake a theoretical analysis to explore how these algorithms impact the decision quality of the subject agent. Additionally, we empirically validate the performance of these algorithms across two widely recognized problem domains, showcasing their robustness and applicability.
 
+In this Supplementary Materials, we detail the frameworks of PSB and ACB, PSB operators, and shared functionalities. %Sensitivity analysis $t$-tests strengthen experiments. 
+All implementations are included in our I-DID toolkit~\footnote{https://github.com/lamingic/SI-IDID\label{si-idid}} .
 
