@@ -29,7 +29,7 @@ These operators, adapted from the PSO mechanism and developed for policy tree re
 
 - **Formalise**: Generates an action sequence from a policy tree.  
 - **Transform**: Converts action sequences to policy trees. 
-- **Fitness**: Evaluates particle sequences using GeNIe decision tool~\footnote{https://www.bayesfusion.com}.  
+- **Fitness**: Evaluates particle sequences using GeNIe decision tool[^1].  
 - **Evaluate**: Calculates pheromone for ant policies.
 
 **Scripts**:
