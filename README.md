@@ -42,6 +42,8 @@ Both PSB and ACB algorithms utilize four fundamental operators. The operators in
 **Experimental Results**:
 
 - **Comparative Studies**: This section presents a comprehensive set of comparative studies, evaluating the performance of our proposed response strategies against existing methods. We conduct these studies across multiple benchmarks and problem domains to ensure a fair and rigorous comparison.
+  
+- **Parameter Sensitivity**: We delve deeper into the influence of parameter variations within the Algorithms section, specifically focusing on the Impact of Parameters in the PSB and ACB Algorithms. In our parameter sensitivity experiments, we adopt standard Particle Swarm Optimization (PSO) parameters: $\omega=0.7$, $c_1=1.4$, and $c_2=1.4$, to validate their suitability for the enhanced PSO algorithm presented in this work. For the ACB algorithm, $\rho$ regulates the retention of actions in new behaviors, while $\epsilon$ governs the greedy exploration of novel actions. Through these experiments, we aim to gain a comprehensive understanding of how these parameters affect the performance and behavior of our proposed algorithms.
 
 - **Statistical Analyses**: We provide detailed statistical analyses of the experimental results, including significance tests, effect sizes, and confidence intervals. These analyses enable us to draw meaningful conclusions about the effectiveness and advantages of our proposed approaches.
 
