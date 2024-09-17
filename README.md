@@ -24,8 +24,9 @@ We present the pseudocode for the four operators in PSB:
 
 These operators, adapted from the PSO mechanism and developed for policy tree representation, are described in two situations in Section~(Generation of New  Behaviours through PSO) and used to update particle position and velocity in Algorithm PSB.
 
-- **Shared Functionalities**: Both the PSB and ACB algorithms share four core operators outlined in PSB and ACB. The \textit{formalise} operator generates an action sequence from a given policy tree, while the \textit{transform} operator constructs a policy tree from a given action sequence. These two operators act as translators between policy trees and particles (or ants) in PSB (or ACB). The \textit{fitness} operator evaluates the fitness of a particle's action sequence in PSB using the decision tool GeNIe\footnote{https://www.bayesfusion.com}, which is the most computationally intensive operator in the algorithms. The \textit{evaluate} operator calculates the pheromone value when an ant in ACB holds a policy encoded as an ordered sequence of actions over positions.)
-Both PSB and ACB algorithms utilize four fundamental operators. The operators in PSB and ACB enable transformations between policy trees and particles/ants.
+- **Shared Functionalities**: Both the PSB and ACB algorithms share four core operators outlined in PSB and ACB. The **formalise** operator generates an action sequence from a given policy tree, while the **transform** operator constructs a policy tree from a given action sequence. These two operators act as translators between policy trees and particles (or ants) in PSB (or ACB). The **fitness** operator evaluates the fitness of a particle's action sequence in PSB using the decision tool GeNIe[^1], which is the most computationally intensive operator in the algorithms. The **evaluate** operator calculates the pheromone value when an ant in ACB holds a policy encoded as an ordered sequence of actions over positions.
+[^1]: https://www.bayesfusion.com)
+
 - - Formalise: Generates an action sequence from a policy tree.  
 - - Transform: Converts action sequences to policy trees. 
 - - Fitness: Evaluates particle sequences using GeNIe decision tool~\footnote{https://www.bayesfusion.com}.  
